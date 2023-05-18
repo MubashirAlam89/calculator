@@ -21,6 +21,7 @@ For live demo of Calculator &#128073; [here](https://calculator-assignment6.netl
 
 ![Screenshot 1](screenshot-1.jpg)
 ![Screenshot 2](screenshot-2.jpg)
+![Screenshot 2](screenshot-3.jpg)
 
 ## Installation
 
