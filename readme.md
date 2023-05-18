@@ -19,9 +19,9 @@ For live demo of Calculator &#128073; [here](https://calculator-assignment6.netl
 
 ## Screenshots
 
-![Screenshot 1](screenshot-1.jpg)
-![Screenshot 2](screenshot-2.jpg)
-![Screenshot 2](screenshot-3.jpg)
+![Screenshot 1](./Screenshot-1.jpg)
+![Screenshot 2](./Screenshot-2.jpg)
+![Screenshot 2](./Screenshot-3.jpg)
 
 ## Installation
 
