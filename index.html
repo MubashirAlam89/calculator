@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div
+      class="main-container mx-auto my-28 max-sm:my-7 flex flex-col justify-center items-center gap-6 p-6 px-8 rounded-3xl bg-neutral-800"
+    >
+      <h1
+        style="margin-top: -10px; color: #ff6e4e; border-color: #ff6e4e"
+        class="brand w-9/12 border-b-2 border-orange-400 uppercase text-center text-orange-400 text-xl"
+      >
+        calculator
+      </h1>
+      <div class="inputs border-b-2 w-full border-neutral-500 text-white">
+        <input
+          disabled
+          class="w-full px-1 bg-transparent text-right text-2xl"
+          id="history-inp"
+        />
+        <input
+          disabled
+          class="w-full px-1 py-4 bg-transparent text-right text-3xl"
+          id="main-inp"
+        />
+      </div>
+      <div
+        class="btns w-full text-white text-3xl flex flex-col justify items-center gap-4"
+      >
+        <div class="w-full flex justify-between items-center gap-3">
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            7
+          </button>
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            8
+          </button>
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            9
+          </button>
+          <button
+            class="cal eval w-16 h-16 rounded-full bg-neutral-600 hover:bg-neutral-600/80 active:bg-neutral-600/70 transition-all max-sm:hover:bg-neutral-600 max-sm:active:bg-neutral-600"
+          >
+            /
+          </button>
+        </div>
+        <div class="w-full flex justify-between items-center gap-3">
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            4
+          </button>
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            5
+          </button>
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            6
+          </button>
+          <button
+            class="cal eval w-16 h-16 rounded-full bg-neutral-600 hover:bg-neutral-600/80 active:bg-neutral-600/70 transition-all max-sm:hover:bg-neutral-600 max-sm:active:bg-neutral-600"
+          >
+            *
+          </button>
+        </div>
+        <div class="w-full flex justify-between items-center gap-3">
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            1
+          </button>
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            2
+          </button>
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            3
+          </button>
+          <button
+            class="cal eval w-16 h-16 rounded-full bg-neutral-600 hover:bg-neutral-600/80 active:bg-neutral-600/70 transition-all max-sm:hover:bg-neutral-600 max-sm:active:bg-neutral-600"
+          >
+            +
+          </button>
+        </div>
+        <div class="w-full flex justify-between items-center gap-3">
+          <button
+            class="cal eval w-16 h-16 rounded-full bg-neutral-600 hover:bg-neutral-600/80 active:bg-neutral-600/70 transition-all max-sm:hover:bg-neutral-600 max-sm:active:bg-neutral-600"
+          >
+            .
+          </button>
+          <button
+            class="cal w-16 h-16 rounded-full border-2 border-neutral-500 hover:bg-neutral-500/30 max-sm:hover:bg-transparent transition-all"
+          >
+            0
+          </button>
+          <button id="equal" class="w-16 h-16 rounded-full">=</button>
+          <button
+            class="cal eval w-16 h-16 rounded-full bg-neutral-600 hover:bg-neutral-600/80 active:bg-neutral-600/70 transition-all max-sm:hover:bg-neutral-600 max-sm:active:bg-neutral-600"
+          >
+            -
+          </button>
+        </div>
+        <button
+          id="clear"
+          style="border-color: #ff6e4e"
+          class="clearBtn border-2 mt-1 border-orange-500 hover:bg-neutral-500/20 active:bg-neutral-500/30 max-sm:hover:bg-transparent text-white text-3xl w-full p-3 rounded-2xl"
+        >
+          clear
+        </button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
