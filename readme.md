@@ -41,8 +41,5 @@ To run the calculator web app locally, follow these steps:
 
 3. Open the index.html file in your preferred web browser.
 
-<br>
-
 <hr>
-
-made with &#128151; by "Mubashir Alam".
+made with &#128151; by <a href="https://www.mubashiralam.com">"Mubashir Alam"</a>.
